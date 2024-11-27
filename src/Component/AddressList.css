@@ -1,0 +1,9 @@
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:15px;
+    @media(max-width:425px) {
+        margin: top 200px;
+    }
+}

@@ -2,9 +2,9 @@ import './App.css';
 import AddressList from './Component/AddressList'
 function App() {
   return (
-    <div className="App">
+    // <div className="App">
       <AddressList/>
-    </div>
+    // </div>
   );
 }
 
