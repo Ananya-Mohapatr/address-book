@@ -1,10 +1,12 @@
+import { Provider } from 'react-redux';
 import './App.css';
 import AddressList from './Component/AddressList'
+import listReducer from './utils/store'
 function App() {
   return (
-    // <div className="App">
+    <Provider store = {listReducer}>
       <AddressList/>
-    // </div>
+    </Provider>
   );
 }
 
